@@ -24,7 +24,7 @@ jobs:
             "repository": "${{ github.repository }}",
             "branch": "${{ github.ref_name }}",
             "actor": "${{ github.actor }}",
-            "domain": "expert-barnacle.github.io"
+            "domain": "hamiltoon.github.io/expert-barnacle/"
           }' > deployment-info.json
 
       - name: Deploy to GitHub Pages
@@ -33,5 +33,3 @@ jobs:
           folder: .  # The folder the action should deploy
           branch: gh-pages  # The branch the action should deploy to
           clean: true  # Automatically remove deleted files from the deployment
-          clean-exclude: |
-            CNAME 
