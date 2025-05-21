@@ -1,7 +1,7 @@
 {
   "deployment_time": "$(date -u +"%Y-%m-%dT%H:%M:%SZ")",
-  "commit_sha": "128a33815397372f2b977eba49f815362e7a1710",
-  "commit_message": "Update README.md to include a link to the live site",
+  "commit_sha": "db3ff22e1ce1f85bbea54b0f96fb64e5e5992cc1",
+  "commit_message": "Add deployment badge to README.md for GitHub Actions",
   "repository": "hamiltoon/expert-barnacle",
   "branch": "main",
   "actor": "hamiltoon",
