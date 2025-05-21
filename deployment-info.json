@@ -1,9 +1,9 @@
 {
   "deployment_time": "$(date -u +"%Y-%m-%dT%H:%M:%SZ")",
-  "commit_sha": "0928dcc12fc08792462fe07f4ec8adef1ac38d79",
-  "commit_message": "Add CNAME file for custom domain configuration",
+  "commit_sha": "9e64e055dbf2f26819b549bfeeb53253c01fa457",
+  "commit_message": "Remove CNAME file and update deployment domain in GitHub Actions workflow",
   "repository": "hamiltoon/expert-barnacle",
   "branch": "main",
   "actor": "hamiltoon",
-  "domain": "expert-barnacle.github.io"
+  "domain": "hamiltoon.github.io/expert-barnacle/"
 }
