@@ -1,7 +1,7 @@
 {
   "deployment_time": "$(date -u +"%Y-%m-%dT%H:%M:%SZ")",
-  "commit_sha": "9e64e055dbf2f26819b549bfeeb53253c01fa457",
-  "commit_message": "Remove CNAME file and update deployment domain in GitHub Actions workflow",
+  "commit_sha": "4b74ca279060a04f216a695143f4f2826ca3d1a4",
+  "commit_message": "Enhance GitHub Actions workflow for deployment by adding Node.js setup, dependency installation, and Vite app build steps. Update deployment info generation to output to the dist folder.",
   "repository": "hamiltoon/expert-barnacle",
   "branch": "main",
   "actor": "hamiltoon",
